@@ -11,3 +11,4 @@ cursor = conexao.cursor()
 data = ("Giovana", "gi@gmail.com")
 cursor.execute("INSERT INTO clientes (nome, email) vALUES (?,?);", data)
 conexao.commit()
+# Criei a branch teste para ver como funciona
